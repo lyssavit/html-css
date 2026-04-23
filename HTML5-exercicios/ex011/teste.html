@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beetlejuice</title>
+</head>
+<body>
+    <h1>Bem-vindo(a)</h1>
+    <p>Olá, fique a vontade para observar essa imagem do nosso querido <mark style="background-color: rgb(94, 255, 0);">Bob</mark> sendo interrogado.</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens2/bob-p.jpg" type="image/jpg">
+        <source media="(max-width:1050px)" srcset="imagens2/bob-m.jpg" type="image/jpg">
+        <img src="imagens2/bob-g.jpg" alt="Personagem Bob do Beetlejuice">
+    </picture>
+
+    <br>
+    <hr>
+    <button style="background-color: rgb(0, 255, 55);"><a href="./index.html">Vá para segunda página</a></button>
+    <h1>Reproduzindo áudios</h1>
+    <p>Outra forma de reproduzir áudios</p>
+    <audio preload="auto" autoplay controls>
+        <source src="./midia/billie.mp3" type="image/mpeg">
+        <source src="./midia/billie.ogg" type="image/ogg">
+        <source src="./midia/billie.wav" typr="image/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.</p>
+        <a href="./midia/billie.mp3">clique aqui para baixar o arquivo MP.</a>
+    </audio>
+    
+</body>
+</html>

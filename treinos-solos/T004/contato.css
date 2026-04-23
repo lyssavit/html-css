@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: 'Principal';
+    src: url('fontes/Strong.ttf') format('truetype');
+    font-weight: normal;
+    font-style:normal;
+}
+
+
+:root{
+    --cor01:#5E9DE0;
+    --cor02:#5085BE;
+    --cor03:#61A3E8;
+    --cor04:#416D9C;
+    --cor05:#003B7B;
+    --cor06:#253D58;
+    --cor07:#000000;
+    --cor08:#ffffff;
+    --cor09:#3BC4CB;
+    
+
+    --fonte-principal:'Principal', serif;
+
+}
+
+body{
+    background-color: var(--cor06);
+}
+
+
+header{
+    background-image: linear-gradient(to right, var(--cor02), var(--cor04), var(--cor06));
+    padding: 48px;
+    margin:-8px;   
+}
+header > h1{
+    color: var(--cor08);
+    text-align: center;
+    font-size: 3em;
+    font-family: var(--fonte-principal);
+    font-weight: normal;
+}
+
+header > p{
+    color: var(--cor08);
+    text-align: center;
+    font-size: 20px;
+    margin-top: -4px;
+}
+
+nav{
+background-image: linear-gradient(to right, var(--cor03), var(--cor04), var(--cor06));
+padding: 1px;
+border: 1px solid var(--cor06);
+}
+
+
+nav > p {
+    color: var(--cor08);
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    font-family: var(--fonte-principal);
+}
+
+nav > a{
+    display: none;
+    color: var(--cor08);
+    font-family: var(--fonte-principal);
+    font-weight: normal;
+    font-size: 14px;
+    padding: 10px;
+    background-color: var(--cor06);
+    margin: -1px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+nav > a:hover{
+    color: var(--cor02);
+    font-size: 16px;
+    padding:10px;
+
+}
+
+nav:hover > a{
+    display: block;
+}
+
+main{
+    background-color: rgb(207, 241, 255);
+    margin: auto;
+    padding: 20px;
+    max-width: 800px;
+    min-width: 250px;
+}
+
+main > h1 {
+    font-family: var(--fonte-principal);
+    color: var(--cor06);
+}
+
+main > h2{
+    color: var(--cor06);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 8px;
+    font-size: 20px;
+    padding: 40px;
+    margin: auto;
+    
+}
+
+main strong{
+    color: #002550;
+    font-size: 22px;
+}
+
+main pre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin: auto;
+}
+
+main ul {
+    columns: 1;
+    margin: auto;
+    padding: 30px 30px 30px 30px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#atendimento{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: var(--cor05);
+    margin: auto;
+    padding: 0px;
+}
+
+footer > p{
+    color: var(--cor08);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+*{
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+}
+p{
+    font-weight: lighter;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h1, h2{
+    font-weight: bolder;
+}

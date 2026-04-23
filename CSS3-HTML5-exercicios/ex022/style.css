@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+h1{
+    background-color: rgb(255, 190, 195);
+    height: 300px;
+    width: 300px;
+
+    /*BORDA SIMPLIFICADA*/
+    /*ORDEM CORRETA: width, style, color*/
+    border: 5px solid rgb(255, 120, 120);
+
+    /* por possuirem as mesmas medidas pode simplificar mais ainda*/
+    /*padding:10px; todos vão possuir 10px*/
+
+    /*ORDEM CORRETA: top, right, bottom, left*/
+    padding: 10px 10px 10px 10px;
+
+    /*margin dá para simplificar também*/
+    /*ORDEM CORRETA: top, right, bottom, left*/
+    /*CASO QUEIRA CENTRALIZAR OS LADOS ->  margin: 20px auto 40px auto; */
+    /* PARA CENTRALIZAR TODA A MARGEM -> margin:auto; */
+    margin: 20px 20px 40px 20px;
+
+    /*Dá para simplificar o outline*/
+
+    /*ORDEM CORRETA: width, style, color*/
+    outline: 5px solid pink;
+    
+}
+
+a{
+    border: 5px solid pink;
+    background-color: rgb(255, 86, 114);
+    color: black;
+    font-weight: bold;
+    
+
+    padding: 10px;
+    
+}

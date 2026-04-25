@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+
+body{
+    
+    height: 98vh;
+    background-color: black;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+
+
+div.reta{
+    width: 600px;
+    height: 600px;
+    display: inline-block;
+    color: aliceblue;
+    border: 2px solid rgb(217, 255, 0);
+    margin: 10px;
+    background-repeat: repeat-x;
+   
+}
+
+div#r1{
+    background-size: 200px 200px;
+    background-image: url(./imagens/mato.png);
+    background-repeat: repeat-x;
+    background-position: right top;
+
+}
+
+div#r2{
+    background-size: 200px 200px;
+    background-image: url(./imagens/mato.png);
+    background-repeat: repeat-x;
+    background-position: left top;
+}
+
+div#r3{
+    background-size: 200px 200px;
+    background-image: url(./imagens/mato.png);
+    background-repeat: repeat-x;
+    background-position: center center;
+
+}
+
+div#r4{
+    background-size: 200px 200px;
+    background-image: url(./imagens/mato.png);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+
+}
+
+div#r5{
+    background-size: 200px 200px;
+    background-image: url(./imagens/mato.png);
+    background-repeat: repeat-y;
+    background-position: right bottom;
+}
+
+div#r6{
+    background-size: 200px 200px;
+    background-image: url(./imagens/mato.png);
+    background-repeat: repeat-y;
+    background-position: center bottom;
+}

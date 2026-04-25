@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body{
+    height: 98vh;
+    border: 5px dashed black;
+    background-image: url('https://s3.amazonaws.com/festivaldorio/2013/site/peliculas/large2/deathbeco_p01cor_2013111860.jpg');
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

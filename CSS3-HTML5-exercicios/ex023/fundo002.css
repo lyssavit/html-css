@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body{
+    /*background-image: url('https://wallpapers.com/images/hd/beetlejuice-logo-in-red-102kvhkr9jk9xqz1.jpg');*/
+    background-image: url('./imagens/wallpaper001.jpg');
+    background-size: 200px 200px;
+    background-repeat: repeat;
+    /*background-repeat: no-repeat;*/
+    /*background-repeat: repeat-x;*/
+    /*background-repeat: repeat-y;*/
+}

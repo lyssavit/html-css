@@ -16,6 +16,8 @@
 
 
 body{
+    height: 100vh;
+    margin: 0px;
     background-image: black;
 }
 
@@ -52,9 +54,6 @@ nav a:hover{
 }
 
 main {
-    height: 100vh;
-    margin: 0px;
-    position: relative;
     box-shadow: 5px 10px 1px #000000b6;
 }
 
@@ -62,15 +61,10 @@ main pre{
     font-family: var(--fonte3);
     font-weight: bolder;
     font-size: 5em;
-    padding: 200px 15px 15px 15px;
+    line-height: 1.6em;    
+    padding: 0px;
     text-align: left;
-    display: block;
-    background-attachment: fixed;
-    transform: translate(-60%, -9%);
-    max-width: 619px;
-    line-height: 1.6em;
-    margin-bottom: 40px auto -99px auto;
-
+    
 }
 
 section.sessao{
@@ -86,6 +80,13 @@ section#image1{
     background: black url(./imagens/background001.jpg) center center / cover no-repeat fixed;
 }
 
+section#image1 pre{
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+    background-position: left;
+    
+}
+
 section#sec2 pre{
     margin-top: 60px;
 
@@ -96,4 +97,31 @@ section#image2{
     background: black url(./imagens/background002.jpg) center center / cover no-repeat fixed;
 }
 
+section#image2 p{
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+    
+    
+}
 
+footer{
+    background-color: black;
+    padding: 10px;
+}
+
+footer > p {
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-family: var(--fonte1);
+}
+
+footer a:hover{
+    text-decoration: underline;
+}

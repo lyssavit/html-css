@@ -83,7 +83,8 @@ section#image1{
 section#image1 pre{
     background-color: rgba(0, 0, 0, 0.507);
     color: white;
-    background-position: left;
+    display: inline-block;
+    padding: 30px;
     
 }
 
@@ -100,6 +101,8 @@ section#image2{
 section#image2 p{
     background-color: rgba(0, 0, 0, 0.507);
     color: white;
+    display: inline-block;
+    padding: 30px;
     
     
 }

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+table{
+    width: 500px;
+    height: 500px;
+    border-collapse: collapse;
+}
+
+tr{
+    background-color: pink;
+}
+
+td{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    color: #8484ff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}

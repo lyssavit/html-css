@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Griffy&family=Mountains+of+Christmas:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor1: #6141A6;
+    --cor2: #BD54BF;
+    --cor3: #121440;
+    --cor4: #172573;
+    --cor5: #EBE9E1;
+    --cor6: #a388dd;
+    --cor7: #2e2444;
+    --cor8: #90ee90;
+
+    --font1:  "Griffy", system-ui;
+    --font2: "Mountains of Christmas", serif;
+    --font3: Arial, Helvetica, sans-serif;
+
+}
+
+
+body{
+    background-color: lightgrey;
+    height: 100vh;
+    margin: 0px;
+    font-family: var(--font3);
+    
+}
+
+header{
+    background: black url(../imagens/fundo.png) center center/ cover no-repeat;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+header > h1{
+    font-family: var(--font1);
+    font-weight: normal;
+    font-size: 6em;
+    padding-top: 40px;
+    color: var(--cor8);
+    
+}
+
+header > p {
+    padding: 40px;
+    font-family: var(--font3);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--cor8);
+}
+
+header a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+section a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor7);
+    font-size: 20px;
+}
+
+section.normal{
+    background-color: var(--cor5);
+}
+
+section.normal h2{
+    padding: 25px;
+    font-size: 50px;
+    color: var(--cor7);
+    font-family: var(--font2);
+    text-align: center;
+}
+
+section.imagem h2{
+    padding: 25px;
+    font-size: 50px;
+    color: var(--cor8);
+    font-family: var(--font2);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.658);
+}
+
+section.normal p{
+    font-size: 20px;
+    text-align: justify;
+    display: block;
+    padding: 20px 20px 100px 20px;
+    max-width: 1000px;
+    margin: auto;
+    line-height: 40px;
+}
+
+section.imagem p{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: justify;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #8ad68a38;     
+    color: var(--cor8); 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.658);
+    line-height: 40px;
+}
+
+section.normal img{
+    margin: auto;
+    display: block;
+    max-width: 700px;
+}
+
+section.normal audio{
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+
+
+section#img1{
+    background: var(--cor5) url(../imagens/beetlejuice.jpg) center center / cover no-repeat fixed;
+    padding: 100px;
+}
+
+section#img2{
+    background:var(--cor5) url(../imagens/adambarbara1.jpg) center top / cover no-repeat fixed;
+    padding: 100px;
+}
+
+section#img3{
+    background: var(--cor5) url(../imagens/lydia.png) center center / cover no-repeat fixed;
+    padding: 100px;
+}
+
+section#img4{
+    background: var(--cor5) url(../imagens/verme.jpg) left top / cover no-repeat fixed;
+    padding: 100px;
+}
+
+section.final{
+    background-color: var(--cor5);
+    padding: 90px;
+    text-align: center;
+    border: 60px solid var(--cor7);
+}
+section.final h2{
+    padding: 25px;
+    font-size: 3.5em;
+    text-align: left;
+    color: var(--cor7);
+    font-family: var(--font2);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.658);
+    
+}
+
+section.final h3{
+    padding: 20px;
+    font-size: 2.5em;
+    text-align: left;
+    color: var(--cor8);
+    font-family: var(--font2);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.658);
+}
+
+section.final p{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+section.final ul{
+    text-align: left;
+    columns: 3;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+section a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+    border: 2px solid var(--cor7);
+}
+
+footer > p{
+    color: var(--cor7);
+    font-size: 17px;
+    font-family: var(--font3);
+    font-weight: bold;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor1);
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+
+
+

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 300px;
+}
+
+caption{
+    font-family: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    background-color: #9dd0ff;
+
+}
+
+th{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #cde7ff;
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+}

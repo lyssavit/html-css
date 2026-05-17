@@ -5,38 +5,55 @@
     padding: 0px;
 }
 
+
 body{
-    background: black url(imagens/fundo-madeira.jpg) center center / cover no-repeat fixed;
+    width: 100%;
+    min-height: 100vh;
+    background: pink url(imagens/fundo.jpg) center center / cover no-repeat fixed;
 }
 
-
-
-.container{
+main{
+    width: 100%;
+    min-height: 100vh;
     position: relative;
 }
 
-section img{
-    width: 80px;
-    border-radius: 100%;
+#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(imagens/tel.png) center center / contain no-repeat fixed;
+    height: 600px;
+    width: 500px;
+}
+
+#telefone iframe{
+    position: relative;
+    top: 5%;
+    left: 25%;
+    border-radius: 30px;
+    width: 250px;
+    height: 530px;
+    overflow: hidden;
+}
+
+#redes-sociais a {
+    display: block;
+    text-align: right;
     padding: 10px;
+}
+
+#redes-sociais img{
+    border-radius: 50%;
+    width: 50px;
+}
+
+#redes-sociais img:hover{
+    border: 2px solid rgb(255, 0, 119);
+    border-radius: 50%;
+    box-sizing: border-box;
+    transform: rotate(20deg);
+    transition: transform 0.3s;
     
 }
-
-#redes{
-    position: absolute;
-    transform: translate(850%, 3%);
-    width: 200px;
-}
-
-
-
-#image{
-    max-width: 300px;
-    text-align: center;
-    margin: auto;
-    display: block;
-    padding: 50px;
-}
-
-
-

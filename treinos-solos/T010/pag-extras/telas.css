@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section img{
+    width: 100%;
+    min-height: 100vh;
+}
+
+section a{
+    display: block;
+    background-color: #ff7ebe;
+    color: white;
+    margin-top: -10px ;
+    padding: 10px;    
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+section a:hover{
+    background-color: #ff3f9f;
+}

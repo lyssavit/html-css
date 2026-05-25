@@ -6,42 +6,50 @@
     <title>Formulários</title>
 
     <style>
+
+        #container{
+            text-align: justify;
+            border: 1px solid black;
+            width: 400px;
+            background-color: #034b5e;
+            color: white;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
         div{
             padding: 10px;
+            
         }
     </style>
 </head>
 <body>
     <h1>Teste de formulário</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
-        <div>
-            <label for="inome">Nome:</label>
-            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome completo" autocomplete="name">
-        </div>
-
-        <div>
-            <label for="imedia">Média: </label>
-            <input type="number" name="media" id="imedia" required min="0" max="10"  step="0.5" value="5" placeholder="Digite sua média escolar">
-        </div>
-
-        <div>
-            <label for="imes">Período Letivo</label>
-            <input type="month" name="mes" id="imes" value="2026-05">
-        </div>
-
-        <div>
-            <label for="idia">Dia da prova:</label>
-            <input type="date" name="dia" id="idia" value="2026-05-22">
-        </div>
-
-        <div>
-            <label for="ihora">Horário da prova:</label>
-            <input type="time" name="hora" id="ihora" value="17:20">
-        </div>
-
-        <div>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
+        <div id="container">
+            <div>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome completo" autocomplete="name">
+            </div>
+            <div>
+                <label for="imedia">Média: </label>
+                <input type="number" name="media" id="imedia" required min="0" max="10"  step="0.5" value="5" placeholder="Digite sua média escolar">
+            </div>
+            <div>
+                <label for="imes">Período Letivo</label>
+                <input type="month" name="mes" id="imes" value="2026-05">
+            </div>
+            <div>
+                <label for="idia">Dia da prova:</label>
+                <input type="date" name="dia" id="idia" value="2026-05-22">
+            </div>
+            <div>
+                <label for="ihora">Horário da prova:</label>
+                <input type="time" name="hora" id="ihora" value="17:20">
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
         </div>
 
 

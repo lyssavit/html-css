@@ -1,3 +1,107 @@
 @charset "UTF-8";
 
 /*Todas as demais mídias*/
+/*Typical Device Breakpoint*/
+
+@media print {
+    
+    /*impressão*/
+
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    main{
+        border: 2px solid rgb(255, 0, 0);
+        padding: 10px;
+    }
+
+    main::after{
+        content:'Esse é o modo impressão';
+    }
+
+    h1{
+        color: rgb(0, 0, 0);
+        text-shadow: none;
+    }
+
+    #tel, #tablet, #pc, #tv {
+        display: none;
+    }
+
+    #impressao{
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    /*tablet*/
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+
+    }
+
+    main{
+        width: 600px;
+        height: 400px;
+    }
+
+
+    #tel, #impressao, #pc, #tv {
+        display: none;
+    }
+
+    #tablet{
+        display: block;
+    }
+
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1600px) {
+
+    /*desktops*/
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+        
+    }
+    
+    main{
+        width: 800px;
+        height: 500px;
+    }
+
+    #tablet, #impressao, #tel, #tv{
+        display: none;
+    }
+    
+    #pc{
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 1600px) {
+
+    /*grandes telas*/
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    main{
+        width: 1000px;
+        height: 600px;
+    }
+
+    #tablet, #impressao, #tel, #pc{
+        display: none;
+    }
+
+    #tv{
+        display: block;
+    }
+    
+
+}

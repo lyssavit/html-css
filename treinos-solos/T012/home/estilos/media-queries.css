@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    body{
+        background-image: linear-gradient(to top, var(--cor1), var(--cor4), var(--cor3));
+    }
+
+    section{
+        width: 85%;
+        height: 500px;
+    }
+
+    section > div#imagem{
+        float: right;
+        width: 40%;
+        height: 100%;
+    }
+
+    section > div#conteudo > h1{
+        font-size: 2em;
+        
+    }
+
+    section >  div#conteudo > p {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+
+    section > div#conteudo > div.botao > p {
+        padding: 15px;
+    }
+    section > div#conteudo > div.botao > a{
+        padding: 15px;
+        text-align: center;
+        width: 350px;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, var(--cor1), var(--cor4), var(--cor3));
+    }
+
+    section{
+        width: 900px;
+        height: 600px;
+    }
+
+    section > div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section > div#conteudo > h1{
+        font-size: 2.5em;
+        padding: 30px;
+    }
+    section > div#conteudo > p{
+        font-size: 20px;
+    }
+
+    section > div#conteudo > div.botao > p {
+        padding: 15px;
+    }
+    section > div#conteudo > div.botao > a{
+        padding: 15px;
+        text-align: center;
+        width: 400px;
+        margin: auto;
+    }
+
+    
+}

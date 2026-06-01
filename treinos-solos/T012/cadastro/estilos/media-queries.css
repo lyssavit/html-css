@@ -27,7 +27,7 @@
     form > div.cadastro > h2{
         padding-top: 15px;
         margin-bottom: 10px ;
-        font-size: 2em;
+        font-size: 2.3em;
         margin: auto;
     }
 
@@ -39,6 +39,7 @@
     form > div.cadastro label{
         padding: 15px;
         border-radius: 10px;
+        transform: translateY(-2px);
         
     }
 
@@ -64,18 +65,74 @@
 
     section{
         width: 80%;
-        height: 850px;
+        height: 810px;
     }
 
     section > div#imagem{
         float: left;
-        width: 35%;
+        width: 30%;
         height: 100%;
     }
 
-    div#formulario > form > div.cadastro{
-        text-align: right;
+    div#formulario > form > div.cadastro {
+        float: right;
+        width:calc(100% - 35%)
     }
+
+    div#formulario > form > div.cadastro > h2{
+        font-size: 3em;
+    }
+
+    div#formulario > form > div.cadastro > p{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+
+    div#formulario > form > div.cadastro label{
+        font-size: 18px;
+        padding: 12.5px;
+        border-radius: 10px;
+
+        transform: translateY(-2px);
+    }
+
+    div#formulario > form > div.cadastro  input{
+        width: 65%;
+        height: 42px;
+        border-radius: 10px;
+        border: 3px solid var(--cor1);
+        margin-left: -8px;
+
+        transform: translateY( -2px);
+
+    }
+
+
+    div#formulario > form  div#borda{
+        float: left;
+        width: calc(100% - 35%);
+    }
+
+    div#formulario > form div#cadastrar{
+        float: right;
+        width: calc(85% - 15%);
+        margin-top: 30px;
+
+    }
+
+    section div#adicionais{
+        float: right;
+        width: calc(100% - 30%);
+        margin-top: 25px;
+
+
+    
+
+        
+    }
+
 
 
 }

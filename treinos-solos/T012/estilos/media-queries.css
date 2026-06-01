@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #304d69;
+    --cor2: #bbdeff;
+    --cor3: #c6e3ff;
+    --cor4: #81c2ff;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: linear-gradient( to top, var(--cor1), var(--cor4), var(--cor3) );
+    }
+
+    section{
+        width: 80%;
+        height: 810px;
+    }
+
+    section > div#imagem{
+        float: right;
+        width: 35%;
+        height: 100%;
+        box-shadow: 1px 1px 4px var(--cor1);
+    }
+
+    form > div.cadastro > h2{
+        padding-top: 15px;
+        margin-bottom: 10px ;
+        font-size: 2em;
+        margin: auto;
+    }
+
+    form > div.cadastro > p{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    form > div.cadastro label{
+        padding: 15px;
+        border-radius: 10px;
+        
+    }
+
+    form > div.cadastro input{
+        width: 38%;
+        height: 45px;
+        border-radius: 10px;
+        border: 3px solid var(--cor1);
+        margin-left: -9px;
+        transform: translateY(-2px);
+    }
+
+    form div#cadastrar > input{
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 992px){
+     body{
+        background-image: linear-gradient( to top, var(--cor1), var(--cor4), var(--cor3) );
+    }
+
+    section{
+        width: 80%;
+        height: 850px;
+    }
+
+    section > div#imagem{
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+
+    div#formulario > form > div.cadastro{
+        text-align: right;
+    }
+
+
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
+</head>
+
+<body>
+
+    <section>
+        <div id="imagem"></div>
+
+        <div id="formulario">
+
+            <form action="cadastro.php" method="post" autocomplete="on">
+
+                <div class="cadastro">
+                    <h2>Cadastro</h2>
+                    <p>Cadastre-se para conseguir acessar seu ambiente e fazer configurações.</p>
+                    <div>
+                        <label for="igenero">Gênero</label>
+                        <input type="text" name="igenero" id="igenero" list="genero" placeholder="Outro? Digite."
+                            required>
+                        <datalist id="genero">
+                            <option>Mulher Cis</option>
+                            <option>Homem Cis</option>
+                            <option>Mulher Trans</option>
+                            <option>Homem Trans</option>
+                            <option>Não binário</option>
+                        </datalist> <br>
+                    </div>
+                    <div>
+                        <label for="isexualidade">Sexualidade</label>
+                        <input type="text" name="isexualidade" id="isexualidade" list="sexualidade"
+                            placeholder="Outro? Digite." required>
+                        <datalist id="sexualidade">
+                            <option>Hétero</option>
+                            <option>Homossexual</option>
+                            <option>Lésbica</option>
+                            <option>Bissexual</option>
+                            <option>Panssexual</option>
+                        </datalist> <br>
+                    </div>
+                    <div>
+                        <label for="iescolaridade">Escolaridade</label>
+                        <input type="text" name="iescolaridade" id="iescolaridade" list="escolaridade" required
+                            placeholder="Outro? Digite.">
+                        <datalist id="escolaridade">
+                            <option>Ensino Fundamental completo</option>
+                            <option>Ensino Fundamental incompleto</option>
+                            <option>Ensino Médio completo</option>
+                            <option>Ensino Médio incompleto</option>
+                            <option>Ensino Médio em andamento</option>
+                            <option>Graduação completa</option>
+                            <option>Graduação em andamento</option>
+                            <option>Pós graduação completa</option>
+                            <option>Pós graduação em andamento</option>
+                        </datalist> <br>
+                    </div>
+                    <div>
+                        <label for="icargo">Cargo</label>
+                        <input type="text" name="icargo" id="icargo" list="cargo" required placeholder="Outro? Digite.">
+                        <datalist id="cargo">
+                            <option>CLT</option>
+                            <option>Estudante</option>
+                            <option>Empresário(a)</option>
+                            <option>Professor(a)</option>
+                            <option>Autônomo(a)</option>
+                            <option>Desempregado(a)</option>
+                        </datalist>
+                    </div>
+                    <div>
+                        <label for="iestadocivil">Estado Cívil</label>
+                        <input type="text" name="iestadocivil" id="iestadocivil" list="estadocivil"
+                            placeholder="Outro? Digite.">
+                        <datalist id="estadocivil">
+                            <option>Solteiro(a)</option>
+                            <option>Casado(a)</option>
+                            <option>Divorciado(a)</option>
+                            <option>Viúvo(a)</option>
+                            <option>União Estável</option>
+                        </datalist>
+                    </div>
+                </div>
+
+                <div id="borda"></div>
+
+
+                <div class="cadastro">
+
+                    <div>
+                        <label for="inome">Nome Completo</label>
+                        <input type="text" name="nome" id="inome" minlength="10" placeholder="Nome Completo"
+                            autocomplete="name" required>
+                    </div>
+                    <div>
+                        <label for="iemail">E-mail</label>
+                        <input type="email" name="email" id="iemail" placeholder="email@email.com" autocomplete="email"
+                            required>
+                    </div>
+                    <div>
+                        <label for="inumero">Telefone</label>
+                        <input type="tel" name="numero" id="inumero" min="8" pattern="^\(\d{2}\)\d{4-5}-\d{4}$"
+                            placeholder="(xx) x xxxx-xxxx" autocomplete="tel" required>
+                    </div>
+
+                    <div>
+                        <label for="isenha">Senha</label>
+                        <input type="password" name="senha" id="isenha" minlength="8" placeholder="Digite uma senha"
+                            required>
+                    </div>
+
+                </div>
+
+                <div id="cadastrar"><input type="submit" value="Cadastrar"></div>
+
+            </form>
+
+            <div id="adicionais">
+                <p>Tem conta? <a href="#">Login</a></p>
+                <a href="#">Esqueci a senha</a>
+            </div>
+
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>

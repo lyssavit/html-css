@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&icon_names=personlock&display=block"/>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
+</head>
+
+<body>
+    <section>
+        <div id="imagem"></div>
+        <div id="formulario">
+            <h1>Bem vindo(a) novamente!</h1>
+            <p>Realize o login para conseguir acessar seu ambiente e realizar suas configurações.</p>
+
+            <form action="cadastro.php" method="post" autocomplete="on">
+                <div id="login" class="formu">
+                    <span class="material-symbols-outlined">person</span>
+                    <input type="email" name="email" id="iemail" placeholder="email@email.com" autocomplete="email" required>
+                    <label for="iemail">Email</label>
+                </div>
+
+                <div id="passw" class="formu">
+                    <span class="material-symbols-outlined">lock</span>
+                    <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" autocomplete="current-password" required>
+                    <label for="isenha">Senha</label>
+                </div>
+
+                <input type="submit" value="Entrar">
+
+            </form>
+
+            <div id="adicionais" >
+                <p>Não possui conta?</p> <a href="../cadastro/cadastro.html" target="_self">Se cadastre</a>
+                <p>Quer voltar para o ínicio?</p> <a href="../home/home.html" target="_self">Clique aqui</a>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+
+
+</body>
+
+</html>
